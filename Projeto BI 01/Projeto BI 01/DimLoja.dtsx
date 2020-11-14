@@ -11,25 +11,25 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{C8415DE2-5567-452C-A8BB-91EFCFC76838}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{CDB8268F-D069-4F82-945F-278779235BA9}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Tarefa Executar SQL"
-      DTS:CreationName="Microsoft.ExecuteSQLTask"
-      DTS:Description="Tarefa Executar SQL"
-      DTS:DTSID="{A5996196-19BA-4202-9B22-04FFA9182FFA}"
-      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:refId="Package\DFT Loja"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tarefa Fluxo de Dados"
+      DTS:DTSID="{B9552CEC-4684-4454-AA18-8B153135617A}"
+      DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Tarefa Executar SQL"
-      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ObjectName="DFT Loja"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
-        <SQLTask:SqlTaskData xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+        <pipeline
+          version="1" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -46,9 +46,9 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="176,41.6"
-          Id="Package\Tarefa Executar SQL"
-          TopLeft="5.5,5.5" />
+          Size="120.8,41.6"
+          Id="Package\DFT Loja"
+          TopLeft="128.333328233825,58.0666671281391" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
