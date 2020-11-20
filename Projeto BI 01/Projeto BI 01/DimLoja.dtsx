@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{CDB8268F-D069-4F82-945F-278779235BA9}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{E86C220E-EFAB-4FFD-8225-05CB1CA1BBD1}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -32,7 +32,33 @@
           version="1" />
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Tarefa de Expressão"
+      DTS:CreationName="Microsoft.ExpressionTask"
+      DTS:Description="Tarefa de Expressão"
+      DTS:DTSID="{0E3D73F1-8356-4004-91AD-A14916D28609}"
+      DTS:ExecutableType="Microsoft.ExpressionTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tarefa de Expressão"
+      DTS:TaskContact="Expression Task;Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExpressionTask
+          Expression="" />
+      </DTS:ObjectData>
+    </DTS:Executable>
   </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restrição]"
+      DTS:CreationName=""
+      DTS:DTSID="{7A73600D-3EB0-45E9-91DC-644CF6300F59}"
+      DTS:From="Package\DFT Loja"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restrição"
+      DTS:To="Package\Tarefa de Expressão" />
+  </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--Esta seção CDATA contém as informações de layout do pacote. A seção inclui informações como coordenadas (x,y), largura e altura.-->
 <!--Se você editar manualmente esta seção e cometer algum erro, poderá excluí-la. -->
@@ -44,11 +70,49 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="120.8,41.6"
           Id="Package\DFT Loja"
           TopLeft="128.333328233825,58.0666671281391" />
+        <NodeLayout
+          Size="174.4,41.6"
+          Id="Package\Tarefa de Expressão"
+          TopLeft="182.499992748102,191.533334855504" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restrição]"
+          TopLeft="188.733328233825,99.6666671281391">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="80.9666645142769,91.8666677273644"
+              Start="0,0"
+              End="80.9666645142769,84.3666677273644">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,41.9333338636822" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,41.9333338636822"
+                    Point2="0,45.9333338636822"
+                    Point3="4,45.9333338636822" />
+                  <mssgle:LineSegment
+                    End="76.9666645142769,45.9333338636822" />
+                  <mssgle:CubicBezierSegment
+                    Point1="76.9666645142769,45.9333338636822"
+                    Point2="80.9666645142769,45.9333338636822"
+                    Point3="80.9666645142769,49.9333338636822" />
+                  <mssgle:LineSegment
+                    End="80.9666645142769,84.3666677273644" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
