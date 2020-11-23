@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LAPTOP-GOJSCMRR_SQLEXPRESS.DMVenda2"
+  DTS:DTSID="{DAC80236-A939-45D7-844A-BCB233307502}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=LAPTOP-GOJSCMRR\SQLEXPRESS;Initial Catalog=DMVenda2;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-{DAC80236-A939-45D7-844A-BCB233307502}LAPTOP-GOJSCMRR_SQLEXPRESS.DMVenda2;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
