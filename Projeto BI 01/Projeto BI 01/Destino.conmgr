@@ -5,6 +5,6 @@
   DTS:CreationName="OLEDB">
   <DTS:ObjectData>
     <DTS:ConnectionManager
-      DTS:ConnectionString="Data Source=LAPTOP-GOJSCMRR\SQLEXPRESS;Initial Catalog=DMVenda;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      DTS:ConnectionString="Data Source=LAPTOP-GOJSCMRR\SQLEXPRESS;Initial Catalog=DMVenda;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-{5A94B93D-60DB-470D-99E8-C85C015B09A3}LAPTOP-GOJSCMRR_SQLEXPRESS.DMVenda;" />
   </DTS:ObjectData>
 </DTS:ConnectionManager>

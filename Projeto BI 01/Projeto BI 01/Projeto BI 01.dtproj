@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">LAPTOP-GOJSCMRR</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdj+NculTtUOppmiODMatcAAAAAACAAAAAAAQZgAAAAEAACAAAADQJnGPXYr1uGNwcfPjpOLj33QvQ8sTbScWgVqEIISVywAAAAAOgAAAAAIAACAAAACmYzuuuRSgln02PNRbIfLAfkoNfstExzoffG3SWbEqqZAAAAChvoRrz3kVsaND49MSbBsuNxHEn8Av7CnDgu+fOe9Rm7mRAkgUEWBOFK7qb/Hj6iRDVuyTwa0aneFFGAlVpVisEuUB6g2hPtajoGW5D/pfDAn0b7Ay7LM51rRd93oSQG4tUQotcvxLgBE1XYHS7w0Q1m6/GBrsmdLGDBtIhBuhxCRMTLkdkDGag/MQHdcEmuxAAAAAquq06adPJ73UGlLLO8UkQyqT5LEayStl5/mbDN4f5/zHPHPuLhLQITmXDqqLiuK56TLxa3RBJLZpCD/gaJxuSw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdj+NculTtUOppmiODMatcAAAAAACAAAAAAAQZgAAAAEAACAAAABZaUV8NQ6K4vgxcO84oeU5/a1ROitfukSjep7v8ZcjlwAAAAAOgAAAAAIAACAAAAAqvqbpO2eo0uXO7YOo5FvX2Ij1XEDw0kL8+5mM19O9EJAAAABjRURlnc9fSbCri+AQIgw+WqYmFAvrXPkk8m13JnRVOVN++N41b8BatQDSeCN+QUorEXpsWJdf5pNDt97t5YcEH33c7LNsQDyhw2rVsWlTtpgjUSB7Im17v/sbJt3rsT2ixmgp5UXWNVPSxsIV7oWoKcjdl05hE9aBtmn0hYvAikJucjYlIa/jzvbzOlJmQjtAAAAA6fDA1Tcrmi2N99Jot+0/aKHya/Lsk8nrJUXOsEp/nR6i7giz6E3DafIaRCyTc1kmo+xrh4v1OwPaFS8PGA5dUw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -65,7 +65,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=LAPTOP-GOJSCMRR\SQLEXPRESS;Initial Catalog=DBVendas;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=LAPTOP-GOJSCMRR\SQLEXPRESS;Initial Catalog=DBVendas;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-{B04662E7-1A50-482A-99D3-F606D6932F0F}LAPTOP-GOJSCMRR_SQLEXPRESS.DBVendas;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -183,7 +183,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=LAPTOP-GOJSCMRR\SQLEXPRESS;Initial Catalog=DMVenda;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=LAPTOP-GOJSCMRR\SQLEXPRESS;Initial Catalog=DMVenda;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-{5A94B93D-60DB-470D-99E8-C85C015B09A3}LAPTOP-GOJSCMRR_SQLEXPRESS.DMVenda;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -301,7 +301,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=LAPTOP-GOJSCMRR\SQLEXPRESS;Initial Catalog=DMVenda2;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=LAPTOP-GOJSCMRR\SQLEXPRESS;Initial Catalog=DMVenda2;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-{DAC80236-A939-45D7-844A-BCB233307502}LAPTOP-GOJSCMRR_SQLEXPRESS.DMVenda2;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -401,10 +401,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">4</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{94258C1C-D89C-45A6-903B-C552953B74AB}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{9C7C60B5-D718-4E30-8B59-1F9CE0269F86}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>

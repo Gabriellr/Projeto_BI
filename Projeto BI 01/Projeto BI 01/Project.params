@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <SSIS:Parameters xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
   <SSIS:Parameter
-    SSIS:Name="Data_Inicio">
+    SSIS:Name="ComandoLoja">
     <SSIS:Properties>
       <SSIS:Property
         SSIS:Name="ID">{f13b6659-d313-453a-9c20-96e853e0da65}</SSIS:Property>
@@ -16,9 +16,9 @@
       <SSIS:Property
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Value">2020-11-14T00:08:16.3763522-03:00</SSIS:Property>
+        SSIS:Name="Value">Select * from dbo.loja</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="DataType">16</SSIS:Property>
+        SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>
   </SSIS:Parameter>
 </SSIS:Parameters>
