@@ -2,9 +2,7 @@
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="LAPTOP-GOJSCMRR_SQLEXPRESS.DBVendas"
   DTS:DTSID="{B04662E7-1A50-482A-99D3-F606D6932F0F}"
-  DTS:CreationName="OLEDB">
-  <DTS:ObjectData>
-    <DTS:ConnectionManager
-      DTS:ConnectionString="Data Source=LAPTOP-GOJSCMRR\SQLEXPRESS;Initial Catalog=DBVendas;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-{B04662E7-1A50-482A-99D3-F606D6932F0F}LAPTOP-GOJSCMRR_SQLEXPRESS.DBVendas;" />
-  </DTS:ObjectData>
-</DTS:ConnectionManager>
+  DTS:CreationName="OLEDB"
+  p1:Salt="4FKv1QoetWw="
+  p1:IV="vEvC5BujTqD8IOLNC0t+wg=="
+  p1:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p1="www.microsoft.com/SqlServer/SSIS">Swl9jIAQ+GYFIfc+ClNeRDafpAbFxIhaqJLUaTbEKnyWEi/xe/ZwG87ZNLFJpQYxKBx3wzkq8LTg1/Nu1UbLMMpHOsnG94D+lEf0eMWP13HRTJyx1FCP7YPHkk0ZYhRSUNPKOt62v5gcbkkTw5Y5JSzz4x+N3XRC6kyJo9DA74Pk2G+ZcaQKjh6QcXYi1uYlJkonc5dKnBKKq/jKzS2mNgn8aebGx7kdaB8ohwi4Z/hYkgYmkPV1qm+4x0n/l8ejHtbEhxqDTVwaIQv3Pftn1YMN5jImDV325JH7xnF7+sX0jD6JGMPYahApG9d1qO2mKyfKugvGdwJWIycFe3hLXKMDO/rZU0q68d9c/VKilb15E/C0Tc7/x85Yeud4Q1CFyGz9WczeLgeuIENzGSjeAhKVnibHL8BLrYYGTqbyiNLEXG58e5BxuWq0DHjaex1BZwSirg14tb8Dv5vylu7qod27/or7tH/+3aNzgfLQ/c+wR6+UOy2sg9n9aZprYPfoAXo7K/9/z5wCfPvUDF9AMp2JQX/UpnNTZ+7f77YpnxWUf5TUSeYJaF9lSl1DIfTEAIGOBZqXQwb9xS9NYV3IfmwqGlScbXdZmy1Gsf2NnYI8g7k9fA2Drw8vEGdWE/dpLZ26gpszDo/1C2apCd9iuJEHVzE6fs+d0xEVdVRlAYQj81thZZIEU2guA6zj0nUR</DTS:ConnectionManager>

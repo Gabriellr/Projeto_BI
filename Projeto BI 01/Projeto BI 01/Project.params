@@ -1,24 +1,5 @@
 ﻿<?xml version="1.0"?>
-<SSIS:Parameters xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
-  <SSIS:Parameter
-    SSIS:Name="ComandoLoja">
-    <SSIS:Properties>
-      <SSIS:Property
-        SSIS:Name="ID">{f13b6659-d313-453a-9c20-96e853e0da65}</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="CreationName"></SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Description"></SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Required">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Sensitive">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Value">Select * from dbo.loja</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="DataType">18</SSIS:Property>
-    </SSIS:Properties>
-  </SSIS:Parameter>
-</SSIS:Parameters>
+<SSIS:Parameters
+  SSIS:Salt="JWSmIzhza68="
+  SSIS:IV="oRbmsIyMlFT4YVKqw0q70w=="
+  SSIS:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">m+9SNYIzogMBSMggHMff/Z7G3J3LnCOVE+pxL3BSiyK2I+8E00wrzWNRFsxeaNFnkvIJ5mdW7VwR87C51CgwgC4LFV+0AtEolLjra3TT1y64h0574mTEvfa/9pqXn2vX7wi15WhbRtOA3GAAi38RAmQKfgHHT5/5+79J+hlgOODqrSX48xrrKxzm17+W35Kx1sEeUAVgrbqSc5POxsPY0Uo0l2P+SxKmyyNoeIIe++lQRaNqd/Tsj5O6KndjzNUc8UKKe58+b9oBtIqP3Mm+MqQ1ZLbaK3lfnffjpQB8INXlHYEnj0okoOuYYBdEwJsvAo49uGM/sx5ZW4+xbQa0UvHfz2Xs52XdMiJghPEwxdePpJVV48PjFpAKQH/G9hFcllPZxvDpKpmnzPZQPXRP74fKrWhQyoK/UwNme8howkBX6vkX3mBz7FadFaLz/+FZYYrGdjMd+QBMdEe62kvBw7UfAf/2Tep5FP2dmqaPBThl2xCKzPuQlv/Ce41ChnC+GyswGzkG53kmSbDIImprSSbSSQ/meiCK02+T6ZY0yRMIiD9miMuxVcVcf+RrAEfR27Tr3YDdIL97fH3zSp7b58L39ll+9GFlnPUy4awCGkS/GAzeq0VsnIxvVynHK8nXaSD4ZVm45mCBTcXF4lMgCZZe7vL/ejbQe0jl3c2FVvKbVTGhDjsgTaFH5SAOohvUaPqnUULMggarIU7vr1Js99qGeOFkbDNIikZnZyyI/CR3mPEWMF6+RbrT+EICed6sHyWkO+7HJskcORxSQ1dt3n2xJnA7RqiBAelvatSzV/4z/Aq8Qgz1AyL9w+4E09b+aliR8nr48EIhv2so9sg6ISbN7JEMAk92nVR1NSNk2XNWHPVgKrgup4sN9om1kfBw</SSIS:Parameters>
