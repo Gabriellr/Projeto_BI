@@ -2,18 +2,18 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>Projeto BI 01</Name>
-    <LastWriteTime>2020-11-25T02:01:28.377573Z</LastWriteTime>
+    <LastWriteTime>2020-11-25T02:36:42.9490826Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
-    <Salt>eVAvDUgL</Salt>
-    <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdj+NculTtUOppmiODMatcAAAAAACAAAAAAAQZgAAAAEAACAAAAA9aFrcCzpvugzzPm0yGoRvfaIrcma4tRhLS9Lly6KmrwAAAAAOgAAAAAIAACAAAABHJwcY96oTky75eE2AlIXYVbRINKFlfRG+dRBMjo71ITAAAAAGABfW2iXJnA/+JI5NaFRCWB6e/ehyVxGN2wlWYS32Bdwgzzh0cV5vjKOHZI8qSEpAAAAAO8rlPo1BV9sPAUPudIpPao6CYtY44NSagPipD3Vcv+9JtCOagyFXUiPGim3bc5GgGUmaKReDkRm/f7AeYHz/vw==</LastKnownProtectedHashedPassword>
+    <Salt>qHeeUAm4</Salt>
+    <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdj+NculTtUOppmiODMatcAAAAAACAAAAAAAQZgAAAAEAACAAAAAkBQRFtkvPDBq8ed9VFTYLcrRbZFG+dQVf3A0sV7yNHQAAAAAOgAAAAAIAACAAAADOZUtl2/UXZec00Ic8rFJ4JH7Dd6UriNbf2k6Zzc6sXTAAAADmGT01OtmM2KEQZoK0XxgFDKQbclYTfbNvekXkeXqgsSyK/vL2S4m0zvX15eMhLWpAAAAAF0hKBvfPB7elvylCw1a0mM/vmOwzQvHKNNvIyLraSzCy0Mtdu3zG2JgfLse8kyeePI8IUusiRX+oZka7LMl2rA==</LastKnownProtectedHashedPassword>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>CargaGeral.dtsx</Name>
-      <LastWriteTime>2020-11-25T01:58:11.2282401Z</LastWriteTime>
+      <LastWriteTime>2020-11-25T02:36:42.9261439Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptAllWithPassword</LastKnownProtectionLevel>
-      <Salt>RU+sOIPX</Salt>
-      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdj+NculTtUOppmiODMatcAAAAAACAAAAAAAQZgAAAAEAACAAAACDaSoRRfABZHwwf5BBExYbUDi5uA42Rk83XhxrOYm12QAAAAAOgAAAAAIAACAAAAD2/DRLjy6qd9QQTdJghhDjcPmHA9nkn/5Z1y+akw1exzAAAAAssqflPPC4BhsRCelo5yPcVDdJ4brRVFTM65S+MqNIDzj/RgnhDt2Zo5+uvIO71rtAAAAAm0tD67tOWm0XckgyR1DlokqbqCDqpo2JMzq6O4KRKse7ONhEF8PbdphDMt/JR10rHA09H6EIyparDeNMg75APQ==</LastKnownProtectedHashedPassword>
+      <Salt>v5nUmCtA</Salt>
+      <LastKnownProtectedHashedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdj+NculTtUOppmiODMatcAAAAAACAAAAAAAQZgAAAAEAACAAAADAp9XSTS5vGiJ5y1exVPFD2V6KJb9lmZvcO2eZFMKeEwAAAAAOgAAAAAIAACAAAABTrogopPyWd7zIk89pFE/T6jDB+tsbONLORD0Ey4iWrjAAAAC1UNTZxjwhgiVrLJ1KX7sXeBsyFOB5wQLWU+7XxQ9v3O/M3XMH8gOTH6g0KyOt6z9AAAAAtgCI6hIv2YRwblndp1RMMii1Ou8D1QPZ0+eKiWckVlBtw0/tAC6fEByl8ZGlIqdCAzIePP2UeOx6SAni8PbyNw==</LastKnownProtectedHashedPassword>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
 </BuildLog>
